@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://51.178.89.236:17117/gridfs_db
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
